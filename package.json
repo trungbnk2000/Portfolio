@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "build:pages": "GITHUB_ACTIONS=true GITHUB_REPOSITORY=trungbnk2000/Portfolio npm run build",
     "preview": "vite preview",
     "lint": "eslint ."
   },
